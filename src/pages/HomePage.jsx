@@ -2,6 +2,7 @@ import Curso from "../components/Curso";
 import Skill from "../components/Skill";
 import { cursos, projects, skills } from "../data/profile";
 import Project from "../components/Project";
+import germanJose from "/german-jose.jpeg";
 
 function HomePage() {
   return (
@@ -10,7 +11,7 @@ function HomePage() {
         <div className="text-gray-50 md:flex-row md:gap-0 flex flex-col gap-5 p-5 bg-gray-800">
           <div className="mr-5">
             <img
-              src="/german-jose.jpeg"
+              src={germanJose}
               alt="personal-portfolio-img"
               className=" object-cover w-full h-full"
             />

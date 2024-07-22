@@ -82,10 +82,11 @@ export const projects = [
     repoUrl: "https://github.com/adore1968/react-y-redux-crud",
   },
   {
-    name: "Awesome website 3",
+    name: "React & Firebase Login con API Context (Firebase Authentication) y Tailwindcss",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam pharetra libero mi, eget malesuada eros accumsan faucibus.",
+      "En este proyecto aprendí a crear una aplicacion web con React y Firebase que permite Registrar y hacer Login de usuarios. En este ejemplo usare Firebase Authentication para poder registar usuarios con email, contraseña y usando oauth Google, la app esta completamente estilizada con TailwindCSS y manejo las diferentes rutas de la pagina con react-router-dom.",
     image: portfolio3,
+    repoUrl: "https://github.com/adore1968/react-firebase-app",
   },
   {
     name: "Awesome website 4",

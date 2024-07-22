@@ -9,30 +9,35 @@ import GithubPage from "./pages/GithubPage";
 import ErrorPage from "./pages/ErrorPage";
 import PostPage from "./pages/PostPage";
 
-const router = createBrowserRouter([
+const router = createBrowserRouter(
+  [
+    {
+      element: <Root />,
+      errorElement: <ErrorPage />,
+      children: [
+        {
+          path: "/",
+          element: <HomePage />,
+        },
+        {
+          path: "/blog",
+          element: <BlogPage />,
+        },
+        {
+          path: "/github",
+          element: <GithubPage />,
+        },
+        {
+          path: "/posts/:title",
+          element: <PostPage />,
+        },
+      ],
+    },
+  ],
   {
-    element: <Root />,
-    errorElement: <ErrorPage />,
-    children: [
-      {
-        path: "/",
-        element: <HomePage />,
-      },
-      {
-        path: "/blog",
-        element: <BlogPage />,
-      },
-      {
-        path: "/github",
-        element: <GithubPage />,
-      },
-      {
-        path: "/posts/:title",
-        element: <PostPage />,
-      },
-    ],
-  },
-]);
+    basename: "/personal-portfolio/",
+  }
+);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>

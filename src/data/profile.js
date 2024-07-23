@@ -2,7 +2,7 @@ import portfolio1 from "/portfolio1.png";
 import portfolio2 from "/portfolio2.png";
 import portfolio3 from "/portfolio3.png";
 import portfolio4 from "/portfolio4.png";
-import portfolio5 from "/portfolio5.jpeg";
+import portfolio5 from "/portfolio5.png";
 import portfolio6 from "/portfolio6.jpeg";
 
 import htmlCssJs from "/html-css-js.png";
@@ -40,6 +40,18 @@ export const skills = [
   {
     name: "MongoDB",
     percentage: 75,
+  },
+  {
+    name: "Java",
+    percentage: 65,
+  },
+  {
+    name: "Spring",
+    percentage: 75,
+  },
+  {
+    name: "MySQL",
+    percentage: 70,
   },
 ];
 
@@ -89,16 +101,18 @@ export const projects = [
     repoUrl: "https://github.com/adore1968/react-firebase-app",
   },
   {
-    name: "Awesome website 4",
+    name: "App Full Stack: Challenge Foro Hub",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam pharetra libero mi, eget malesuada eros accumsan faucibus.",
+      "Mi objetivo con este proyecto fue implementar un CRUD comunicandome con la API REST creada por mi en Practicando Spring Framework: Challenge Foro Hub, utilice herramientas como React con hooks como useState y useEffect para manejar los datos enviados desde el servidor y cree un contexto con createContext para poder manejar el estado de una manera global React Router Dom para crear las diferentes rutas de la pagina, TailwindCSS para la estilizacion y ViteJS para generar esta app de manera rapida y sencilla.",
     image: portfolio4,
+    repoUrl: "https://github.com/adore1968/forohub-client",
   },
   {
-    name: "Awesome website 5",
+    name: "MERN Stack con MySQL - React MySQL CRUD (Context API, TailwindCSS)",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam pharetra libero mi, eget malesuada eros accumsan faucibus.",
+      "Con este proyecto aprendi a crear una aplicación web fullstack usando el Stack MERN (MySQL, Express, React, Node), solo que usare en mi caso MySQL en lugar de Mongodb. Primero creare una aplicacion Backend usando Javascript del lado Servidor con Nodejs, Express, y MySQL y luego creare un frontend de React usando Vite (un generador de proyectos alternativo a create-react-app), lo que creare es un tipico CRUD (Create, Read, Update, Delete) de tareas desde cero.",
     image: portfolio5,
+    repoUrl: "https://github.com/adore1968/mern-stack-con-mysql",
   },
   {
     name: "Awesome website 6",

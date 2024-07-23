@@ -46,7 +46,7 @@ function HomePage() {
         </div>
       </header>
 
-      <section className="md:flex-row flex flex-col justify-between gap-5">
+      <section className="md:flex-row md:items-start flex flex-col justify-between gap-5">
         <div className="md:w-96 md:flex-initial p-5 border">
           <h1 className="md:text-4xl mb-5 text-3xl font-bold">Skills</h1>
           <div className="flex flex-col gap-5">
@@ -79,7 +79,7 @@ function HomePage() {
         <h1 className="md:text-4xl text-gray-50 mb-5 text-3xl font-bold text-center">
           Portafolio
         </h1>
-        <div className="md:grid-cols-3 grid grid-cols-1 gap-5">
+        <div className="md:grid-cols-3 md:items-start grid grid-cols-1 gap-5">
           {projects.map((project, index) => (
             <Project key={index} project={project} />
           ))}

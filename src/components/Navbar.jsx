@@ -8,8 +8,11 @@ function Navbar() {
       </h1>
       <ul className="md:text-xl flex gap-5 text-lg text-gray-400">
         <li>
-          <Link to="/blog" className="hover:text-gray-50 transition-colors">
-            Blog
+          <Link
+            to="/mis-conocimientos"
+            className="hover:text-gray-50 transition-colors"
+          >
+            Mis conocimientos
           </Link>
         </li>
         <li>

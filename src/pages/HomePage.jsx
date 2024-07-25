@@ -13,7 +13,7 @@ function HomePage() {
             <img
               src={germanJose}
               alt="personal-portfolio-img"
-              className=" object-cover w-full h-full"
+              className="md:w-full md:mx-0 object-cover w-2/4 mx-auto rounded-full"
             />
           </div>
           <div className="flex flex-col gap-1">

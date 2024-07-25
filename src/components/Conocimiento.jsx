@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
 
 /* eslint-disable react/prop-types */
-function Post({ post }) {
-  const { title, content, image } = post;
+function Conocimiento({ conocimiento }) {
+  const { title, content, image } = conocimiento;
   return (
     <div className="flex flex-col border">
       <div className="overflow-hidden">
@@ -22,7 +22,7 @@ function Post({ post }) {
         <Link
           href="#"
           className="md:text-xl hover:bg-red-500 w-fit hover:text-gray-50 block px-4 py-2 text-lg transition-colors rounded"
-          to={`/posts/${post.title}`}
+          to={`/conocimientos/${conocimiento.title}`}
         >
           Ver proyecto
         </Link>
@@ -31,4 +31,4 @@ function Post({ post }) {
   );
 }
 
-export default Post;
+export default Conocimiento;

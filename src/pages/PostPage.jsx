@@ -1,15 +1,17 @@
 import { useParams } from "react-router-dom";
-import { posts } from "../data/profile";
+import { conocimientos } from "../data/profile";
 
 function PostPage() {
   const params = useParams();
-  const post = posts.find((post) => post.title === params.title);
-  const { title, content, image, repoUrl } = post.project;
+  const conocimiento = conocimientos.find(
+    (post) => post.title === params.title
+  );
+  const { title, content, image, repoUrl } = conocimiento.project;
 
   return (
     <div className="p-5 border">
       <div className="text-center">
-        <h1 className="md:text-4xl text-3xl font-bold">{post.title}</h1>
+        <h1 className="md:text-4xl text-3xl font-bold">{conocimiento.title}</h1>
         <h3 className="md:text-3xl my-1 text-2xl font-semibold">{title}</h3>
         <p className="mt-2 text-lg">{content}</p>
         <img

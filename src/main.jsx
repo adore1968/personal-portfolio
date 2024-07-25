@@ -4,10 +4,10 @@ import Root from "./Root";
 import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import HomePage from "./pages/HomePage";
-import BlogPage from "./pages/BlogPage";
 import GithubPage from "./pages/GithubPage";
 import ErrorPage from "./pages/ErrorPage";
 import PostPage from "./pages/PostPage";
+import ConocimientosPage from "./pages/ConocimientosPage";
 
 const router = createBrowserRouter(
   [
@@ -20,15 +20,15 @@ const router = createBrowserRouter(
           element: <HomePage />,
         },
         {
-          path: "/blog",
-          element: <BlogPage />,
+          path: "/mis-conocimientos",
+          element: <ConocimientosPage />,
         },
         {
           path: "/github",
           element: <GithubPage />,
         },
         {
-          path: "/posts/:title",
+          path: "/conocimientos/:title",
           element: <PostPage />,
         },
       ],

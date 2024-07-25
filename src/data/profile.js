@@ -3,7 +3,7 @@ import portfolio2 from "/portfolio2.png";
 import portfolio3 from "/portfolio3.png";
 import portfolio4 from "/portfolio4.png";
 import portfolio5 from "/portfolio5.png";
-import portfolio6 from "/portfolio6.jpeg";
+import portfolio6 from "/portfolio6.png";
 
 import htmlCssJs from "/html-css-js.png";
 import htmlCssJsProject from "/html-css-js-project.png";
@@ -115,14 +115,15 @@ export const projects = [
     repoUrl: "https://github.com/adore1968/mern-stack-con-mysql",
   },
   {
-    name: "Awesome website 6",
+    name: "Nodejs React Mongodb Login y CRUD (Aplicación FullStack)",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam pharetra libero mi, eget malesuada eros accumsan faucibus.",
+      "Esta es una aplicación web Fullstack con el stack MERN (MongoDB, Express, React, Nodejs) usando Nodejs como Backend y Mongodb como base de datos NoSQL, y React como aplicacion frontend usando modulos como react-hook-form, react-router-dom, tailwindcss para estilizar la app y otros mas, ademas de usar JSON Web Tokens, cookies para la autenticacion/autorizacion, desarrollando una REST API validando los datos con el modulo zod y la creacion de un servidor con Express.",
     image: portfolio6,
+    repoUrl: "https://github.com/adore1968/mern-crud-auth",
   },
 ];
 
-export const posts = [
+export const conocimientos = [
   {
     title: "HTML, CSS y Javascript",
     content:

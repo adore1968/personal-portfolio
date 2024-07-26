@@ -18,7 +18,7 @@ Bienvenido a mi portafolio, donde presento una colección de proyectos que demue
 - Relacionales: MySQL
 - No Relacionales: MongoDB
 
-### Otros
+### Otros:
 - Git y GitHub para control de versiones
 - Metodologías ágiles (Scrum)
 
